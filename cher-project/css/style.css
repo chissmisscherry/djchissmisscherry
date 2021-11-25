@@ -1,0 +1,325 @@
+/* html {
+  overflow-x:
+} */
+html body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+body  {
+  background: white;
+}
+.container {
+  padding: 10px 10px 10px 10px;
+}
+a { /*change default link colour and decoration*/
+ color: #FFFFFF;
+ text-decoration: none;
+}
+a:hover {
+ color: #CC3333;
+ text-decoration: none;
+ cursor: pointer;
+}
+nav {
+  background-color: #2f2d3a;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 100px;
+  padding-top: 25px;
+  text-align-last: center;
+  text-align: right;
+  font-size: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+}
+nav a {
+  padding-left: 25px;
+}
+nav, body, h2 {
+  font-family: 'Spartan', sans-serif;
+}
+/* home page */
+.logo {
+  display: flex;
+  align-items: flex-start;
+  height: 25%;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-bottom: 75px;
+}
+.chrome {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+}
+.ss {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: -111px;
+  padding-bottom: 62px;
+  margin-top: auto;
+  margin-right: -88px;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  color: white;
+  font-size: 80px;
+  height: auto;
+  width: 100%;
+  padding-bottom: 75px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 50px;
+  right: 33px;
+}
+/* background image for HOME page
+.background {
+  background-image: url(../images/headerimage.jpg);
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: auto;
+}*/
+/*background image for CONTACT page*/
+/*.background-contact {
+    background-image: url(../images/chromelogo.png);
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: auto;
+}*/
+/* no mention of width */
+  /* background-image: url(images/headerimage.jpg); longhand */
+/* background: url(path/to/file.jpg); shorthand */
+.homepage {
+  display: flex;
+  flex-flow:row;
+}
+header {
+  background: #2f2d3a;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  display: flex;
+  align-self: center;
+  color: black;
+  font-size: 88px;
+  font-family: 'Spartan', sans-serif, weight="200";
+  padding-top: 100px;
+  padding-bottom: 1px;
+  margin-left: 420px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color:#6E1213;
+  font-size: 66px;
+  font-family: 'Spartan', sans-serif;
+  margin: 5%;
+  padding: 25px
+}
+p {
+  color: black;
+  margin: 10%;
+}
+/* ABOUT ------------*/
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1px;
+  margin: 5%;
+  margin-top: -50px;
+}
+.soundcloud {
+  display: flex;
+  margin: 5%;
+}
+.soundcloud2a a {
+  background-color: #CC3333;
+}
+.events {
+  display: flex;
+  margin: 5%;
+}
+.aboutPic {
+  margin: 5%;
+  padding-top: 100px;
+}
+.soundcloud1, .soundcloud2, .soundcloud3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.soundcloud1a, .soundcloud2a, .soundcloud3a {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 10px 444px;
+  text-align: center;
+  border: 3px solid #751a36;
+}
+.aboutButton1, .aboutButton2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: 10px 444px;
+  margin-right: 350px;
+}
+.aboutButton2 {
+  padding-bottom: 200px;
+}
+.events1, .events2, .events3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+.events1a, .events2a, .events3a {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 5%;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  align-items: stretch;
+  border: 3px solid #CC3333;
+  padding: 5px;
+}
+/* CONTACT STYLES
+-----------------------------------------*/
+.formContainer {
+  margin-left: 100px;
+  margin: 50%
+  display: flex;
+  align-self: center;
+}
+form {
+  width: 400px;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-left: 140px;
+  padding-top: -111px;
+}
+.contactText {
+  display: flex;
+  margin: 10%;
+  padding-top: 1px;
+  margin-left: 140px;
+  padding-bottom: 5px;
+  height: auto;
+  width: 100%
+  text-decoration-style: solid;
+}
+main {
+  display: flex;
+  align-self: center;
+  padding: 1px;
+  margin: auto;
+  height:100%;
+  width:auto;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  margin-right: 300px;
+  margin-left: -300px;
+  display: flex;
+  align-items: flex-end;
+}
+label {
+  display: flex;
+  align-items: center;
+}
+input {
+  height: 25px;
+  padding-top: 1px;
+}
+textarea {
+  height: 100px;
+  padding-top:1px;
+}
+button {
+  background-color: #CC3333;
+  display: flex;
+  align-self: center;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10%;
+  margin-left: -10px;
+}
+.contactContainer {
+  height: 900px;
+  width: auto;
+  display: flex;
+  align-self: center;
+  padding: 25px 25px 25px 25px
+}
+/* RATES stylesheet
+-----------------------------------------*/
+.ratesPage {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1px;
+  margin: 5%;
+  margin-top: -50px;
+}
+.ratesPage a {
+  background-color: #CC3333;
+}
+/* FOOTER STYLES
+-----------------------------------------*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -200px; /* must be the same height as footer */
+  padding: 10px 10px 10px 10px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: auto; /* however tall you want the footer to be */
+}
+footer {
+  background: #2f2d3a;
+  text-align: center;
+  padding: 25px;
+}
+.footerText, .footerText2 {
+  color: white;
+  padding: 25px
+}
+.socialHandles{
+  padding-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
